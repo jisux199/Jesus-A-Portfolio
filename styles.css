@@ -185,3 +185,41 @@ footer {
   font-size: 40px;
 
 }
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+
+  .menu {
+    flex-wrap: wrap;
+    min-width: unset;
+  }
+
+  nav a {
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+  }
+
+  .picture img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .heading {
+    font-size: 30px;
+    margin: 2% 0;
+  }
+
+  .about-me {
+    font-size: 14px;
+  }
+
+  .container .image-1,
+  .container .image-2 {
+    width: 100%;
+    padding: 5%;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+}
